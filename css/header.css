@@ -1,0 +1,262 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/**************************_HEADER_**************************/
+
+header {
+	
+	background: url(../images/bckd_img.png) no-repeat center top;
+    background-position: 100% 40%;
+   /* height: 700px;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 17, 17, 0.33);
+}
+
+.header-nav {
+	display: flex;
+    justify-content: space-between;
+	padding: 1em 4em;
+	flex-wrap: wrap;
+}
+
+.header-nav-logo {
+	display: flex;
+	align-items: center;
+}
+
+span.header-nav-container-logo {
+    width: 20px;
+    height: 20px;
+    padding: .5em;
+    background-color: #03a9f4;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+a.header-nav-logo-link {
+    margin: 0 auto;
+    font-size: 1.4em;
+}
+
+.logo {
+	color: #fff;
+}
+
+.header-contianer-titre3 {
+	font-size: 1.4em;
+    font-weight: normal;
+	color: #fff;
+}
+
+span.header-titre3 {
+	font-weight: bold;
+}
+
+.header-nav {
+	/*background-color: #02C39A;*/
+}
+
+.header-nav-container-link {
+    align-self: center;
+}
+
+ul.header-nav-link-list {
+	list-style: none;
+	display: flex;
+}
+
+li.header-nav-container-link {
+	padding: 0 1em;
+    position: relative;
+}
+
+a.header-nav-link {
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-size: .75em;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+li.header-nav-container-link:last-of-type {
+    
+    border-left: 1px solid #fff;
+}
+
+li.header-nav-container-link:after {
+	content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: #03a9f4;
+	transition: width .4s;
+}
+
+
+li.header-nav-container-link:hover{
+	cursor: pointer;
+}
+
+li.header-nav-container-link:hover:after{
+	width: 100%;
+}
+
+
+/*a.header-nav-link:hover {
+	color: #03a9f4; 
+	transition: all .1s;
+}*/
+
+
+/**************************_div class="header-container1-intro"_**************************/
+
+.header-container1-intro {
+	position: relative;
+	height: 600px;
+}
+
+.header-container-intro {
+	position: absolute;
+	padding: 1em;
+	width: 50%;
+	height: 50%;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+}
+
+.ftb{
+	font-weight: bold;
+}
+
+.fw5 {
+	font-weight: 500;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.ls-2 {
+	letter-spacing: 2px;
+}
+
+.ls-1 {
+	letter-spacing: 1px;
+}
+
+p.header-content-description {
+	line-height: 2em;
+    margin-bottom: 3em;
+}
+
+
+a.header-content-link {
+	background-color: #03a9f4;
+    padding: .85em 2em;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    transition: color 300ms;
+    outline: 0 none;
+}
+
+/*a.header-content-link:hover {
+  background-color: #ff9800;
+	
+}*/
+
+a.header-content-link:hover .header-content-link-bg {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.header-content-link-bg {
+    z-index: 1;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #ff9800;
+    transition: all 300ms;
+}
+
+span.header-content-bgc {
+    position: relative;
+    z-index: 3;
+}
+
+
+/**************************_div class="header-container-selector"_**************************/
+
+.header-container-selector {
+   /* background-color: #00A896;*/
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 1em;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.header-link-selector {
+    
+    width: 10px;
+    height: 10px;
+}
+
+
+a.header-link-selector:not(:first-child) {
+    margin-left: 10px;
+}
+
+
+.hls-bck-b {
+	background-color: #03a9f4;
+}
+
+.hls-bck-g1 {
+	background-color: #b6b6b6;*/
+}
+
+.hls-bck-o {
+	background-color: #ff9800;*/
+}
+
+.hls-bck-g2 {
+	background-color: #b6b6b6;*/
+}

@@ -1,0 +1,63 @@
+.section-team2{
+    padding: 2em 0em;
+}    
+
+.s-team-container-citation {
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stc-citation:last-child {
+    margin-right: 20px;
+}
+
+.stc-citation {
+    width: calc(100%/3);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+span.stc-c-container-icone {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+    color: #03a9f4;
+}
+
+p.stc-c-container-description {
+    margin-bottom: 2em;
+}
+
+.stc-c-container-p {
+    display: flex;
+    justify-content: center;
+}
+
+.stc-ccp-img {
+    display: block;
+    margin-right: 1em;
+}
+
+img.img-stc-ccp {
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+}
+
+.stc-ccp-info-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+h4.stc-ccp-name {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+span.stc-ccp-info-compagny {
+    color: #727272;
+}

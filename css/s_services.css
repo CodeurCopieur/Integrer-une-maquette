@@ -1,0 +1,62 @@
+.section-services-container {
+    display: flex;
+}
+
+.s-services-container-boxservices {
+    width: calc(100%/4);
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.ssc-boxservices-icon {
+    background-color: #03a9f4;
+    color: #fff;
+    font-size: 2.25em;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-services-container-boxservices.ttc:nth-child(odd) {
+    background-color: #f0fafe;
+}
+
+
+h3.ssc-boxservices-titre3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+p.ssc-boxservices-description {
+    font-size: .85rem;
+    padding: 0em 2.5em;
+    margin: 1.5em 0em;
+    color: #abb0b2;
+    line-height: 2;
+    font-family: 'Hind', sans-serif;
+}
+
+a.ssc-boxservices-link {
+    text-align: center;
+    margin: 2.5em 0em;
+    text-transform: uppercase;
+    font-size: .75em;
+    font-weight: bold;
+    letter-spacing: .5px;
+    color: #03a9f4;
+    transition: all 300ms ease;
+}
+
+a.ssc-boxservices-link:hover {
+    color: #ff9800;
+}
+
+.ttc {
+   text-align: center; 
+}

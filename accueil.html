@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Site responsive</title>
+    <meta name="description" content="La construction de notre premier modèle de site Web, dans lequel convertir le modèle psd en HTML et CSS.">
+
+    <!-- viewport permet le bon fonctionnement du zoom device-->
+    <meta http-equiv="X-UA-Compatible" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!-- SEO -->
+    <meta name="keywords" content="website, louis, widdy">
+    <meta name="author" content="Widdy Louis">
+    <meta name="copyright" content="© Copyright 2017 - Widdy Louis" />
+
+    <link rel="icon" type="image/x-icon" href="images/logo.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-overlay">
+            <div class="header-nav">
+                <div class="header-nav-logo">
+                    <span class="header-nav-container-logo"><a href="#" class="header-nav-logo-link"><i class="fa fa-flask logo"></i></a></span>
+                    <a href="#">
+                        <h3 class="header-contianer-titre3">my<span class="header-titre3">lab</span></h3>
+                    </a>
+                </div>
+                <nav class="header-nav-container-link">
+                    <ul class="header-nav-link-list">
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Home</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Portfolio</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Blog</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Shop</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Pages</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Features</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Shortcodes</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link">Contact</a></li>
+                        <li class="header-nav-container-link"><a href="#" class="header-nav-link"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="header-container1-intro">
+                <div class="header-container-intro">
+                    <h4 class="header-content-titre4 fw5 ttu ls-1">Welcome to <span class="ftb">mylab</span></h4>
+                    <h1 class="header-content-titre1 ttu ls-2">Grow your business with us!</h1>
+                    <p class="header-content-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="" class="header-content-link ls-1">
+                        <div class="header-content-link-bg"></div>
+                        <span class="header-content-bgc">Get Started</span>
+                    </a>
+                </div>
+                <div class="header-container-selector">
+                    <a class="header-link-selector hls-bck-b" href="#"></a>
+                    <a class="header-link-selector hls-bck-g1" href="#"></a>
+                    <a class="header-link-selector hls-bck-o" href="#"></a>
+                    <a class="header-link-selector hls-bck-g2" href="#"></a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Etape 1 : section.section-services>.section-services-containner>(.services-container-boxservices*)*4 -->
+
+    <!-- Etape 2 :section.section-services>.s-section-services-container>(.s-services-container-boxservices*>.ssc-boxservices-icon+h2.ssc-boxservices-titre2{Creative design}+p.ssc-boxservices-description+a.ssc-boxservices-link{read more})*4 -->
+
+    <section class="section-services">
+        <div class="section-services-container">
+            <div class="s-services-container-boxservices ttc">
+                <div class="ssc-boxservices-icon"><span><i class="fa fa-star"></i></span></div>
+                <h3 class="ssc-boxservices-titre3">Creative design</h3>
+                <p class="ssc-boxservices-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the when an unknown printer took a galley of type and scrambled.</p>
+                <a href="#" class="ssc-boxservices-link">read more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="s-services-container-boxservices ttc">
+                <div class="ssc-boxservices-icon"><span><i class="fa fa-mobile"></i></span></div>
+                <h3 class="ssc-boxservices-titre3">Fully Responsive</h3>
+                <p class="ssc-boxservices-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the when an unknown printer took a galley of type and scrambled.</p>
+                <a href="#" class="ssc-boxservices-link">read more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="s-services-container-boxservices ttc">
+                <div class="ssc-boxservices-icon"><span><i class="fa fa-arrows-alt"></i></span></div>
+                <h3 class="ssc-boxservices-titre3">Multipurpose</h3>
+                <p class="ssc-boxservices-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the when an unknown printer took a galley of type and scrambled.</p>
+                <a href="#" class="ssc-boxservices-link">read more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="s-services-container-boxservices ttc">
+                <div class="ssc-boxservices-icon"><span><i class="fa fa-gear"></i></span></div>
+                <h3 class="ssc-boxservices-titre3">Awesome Features</h3>
+                <p class="ssc-boxservices-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the when an unknown printer took a galley of type and scrambled.</p>
+                <a href="#" class="ssc-boxservices-link">read more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Etape 1 : section.section-portfolio>.section-portofolio-container>.s-portoflio-container-boxintro>h2.spc-boxintro-titre2{our portfolio}+p.spc-boxintro-description+ul>li*5>a[#]{clic$} -->
+    
+    <section class="section-portfolio">
+        <div class="section-portofolio-container">
+            <div class="s-portoflio-container-boxintro">
+                <h2 class="spc-boxintro-titre2">our portfolio</h2>
+                <p class="spc-boxintro-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+                <ul class="section-nav-link-list">
+                    <li class="spc-nav-container-link"><a href="#" class="spc-nav-link">all</a></li>
+                    <li class="spc-nav-container-link"><a href="#" class="spc-nav-link">web design</a></li>
+                    <li class="spc-nav-container-link"><a href="#" class="spc-nav-link">graphic design</a></li>
+                    <li class="spc-nav-container-link"><a href="#" class="spc-nav-link">logo</a></li>
+                    <li class="spc-nav-container-link"><a href="#" class="spc-nav-link">photography</a></li>
+                </ul>
+            </div>
+            <!-- .section-portfolio-container>(.s-portfolio-container-boximages>{lol})*4 -->
+            <div class="section-portfolio-container">
+                <div class="s-portfolio-container-boximages">
+                    <div class="spc-image"></div>
+                </div>
+                <div class="s-portfolio-container-boximages">
+                    <div class="spc-img-blc50-2">
+                        <div class="blc50-2-row"></div>
+                        <div class="blc50-2-row"></div>
+                    </div>
+                    <div class="spc-img-blc50-1"></div>
+                </div>
+                <div class="s-portfolio-container-boximages">
+                    <div class="spc-image"></div>
+                </div>
+                <div class="s-portfolio-container-boximages">
+                   <div class="spc-img-blc50-1"></div>
+                    <div class="spc-img-blc50-2">
+                        <div class="blc50-2-row"></div>
+                        <div class="blc50-2-row"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="s-portoflio-container-boxintro">
+                <a href="#" class="spc-boxintro-link">load more <i class="fa fa-repeat" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Etape 1 : section.section-banner>.header-overlay>.section-banner-container>p.sbc-description{Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever, when an unknown printer took to make a type specimen book.}+a.sbc-link{get started} -->
+    
+<section class="section-banner">
+    <div class="header-overlay">
+        <div class="section-banner-container">
+            <p class="sbc-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever, when an unknown printer took to make a type specimen book.</p>
+            <a href="" class="sbc-link">get started</a>
+        </div>
+    </div>
+</section>
+
+<!-- section.section-blog>.section-blog-container>(.s-blog-container-boxintro>h2.sbc-boxintro-titre2{latest news}+p.sbc-boxintro-description{Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.})+.s-blog-container-news>(.sbc-boxarticles>img+h4{1 Jul 2015}+p{Lorem Ipsum is simply dummy of the printing and typesetting 's   galley of type and it to make a type specimen book.})*3 -->
+
+<section class="section-blog">
+    <div class="section-blog-container">
+        <div class="s-blog-container-boxintro">
+            <h2 class="sbc-boxintro-titre2">latest news</h2>
+            <p class="sbc-boxintro-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+        </div>
+        <div class="s-blog-container-news">
+            <div class="sbc-boxarticles">
+                <div class="img-m"><img src="images/blog/news1.png" class="pics-m" alt="news 1"></div>
+                <h4 class="sbc-ba-titre4">1 Jul 2015</h4>
+                <p class="sbc-ba-description">Lorem Ipsum is simply dummy of the printing and typesetting 's   galley of type and it to make a type specimen book.</p>
+            </div>
+            <div class="sbc-boxarticles">
+                <div class="img-m"><img src="images/blog/news2.png" class="pics-m" alt="news 2"></div>
+                <h4 class="sbc-ba-titre4">1 Jul 2015</h4>
+                <p class="sbc-ba-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown and it to Lorem Ipsum.</p>
+            </div>
+            <div class="sbc-boxarticles">
+                <div class="img-m"><img src="images/blog/news3.png" class="pics-m" alt="news 3"></div>
+                <h4 class="sbc-ba-titre4">1 Jul 2015</h4>
+                <p class="sbc-ba-description">Lorem Ipsum is simply dummy of the printing and typesetting 's   galley of type and it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- section.section-team>.section-team-container>(.s-team-container-boxintro>h2.stc-titre2{Our Team}+p.stc-boxintro-description{Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.})+.s-team-container-info>(.stc-boxinfos>img+h4.stc-bi-titre4+span.stc-titre5)*4  -->
+
+<section class="section-team">
+    <div class="section-team-container">
+        <div class="s-team-container-boxintro">
+            <h2 class="stc-boxintro-titre2">Our Team</h2>
+            <p class="stc-boxintro-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+        </div>
+        <div class="s-team-container-info">
+            <div class="stc-boxinfos">
+                <div class="img-m">
+                    <img src="images/team/membre1.png" class="pics-m" alt="pfff">
+                    <div class="blackFrame-001"></div>
+                    <div class="infos-user-001">
+                        <p class="iu-text">I’m John Doe lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+                        <ul class="iu-link-list">
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4 class="stc-bi-titre4">John Doe</h4>
+                <span class="stc-span">Co - Founder</span>
+            </div>
+            <div class="stc-boxinfos">
+                <div class="img-m">
+                    <img src="images/team/membre2.png" class="pics-m" alt="pfff">
+                    <div class="blackFrame"></div>
+                    <div class="infos-user">
+                        <p class="iu-text">I’m John Doe lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+                        <ul class="iu-link-list">
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4 class="stc-bi-titre4">John Doe</h4>
+                <span class="stc-span">Co - Founder</span>
+            </div>
+            <div class="stc-boxinfos">
+                <div class="img-m">
+                    <img src="images/team/membre3.png" class="pics-m" alt="pfff">
+                    <div class="blackFrame-003"></div>
+                    <div class="infos-user-003">
+                        <p class="iu-text">I’m John Doe lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+                        <ul class="iu-link-list">
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4 class="stc-bi-titre4">John Doe</h4>
+                <span class="stc-span">Co - Founder</span>
+            </div>
+            <div class="stc-boxinfos">
+                <div class="img-m">
+                    <img src="images/team/membre4.png" class="pics-m" alt="pfff">
+                    <div class="blackFrame-004"></div>
+                    <div class="infos-user-004">
+                        <p class="iu-text">I’m John Doe lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+                        <ul class="iu-link-list">
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <li class="iu-links"><a href="#" class="iu-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4 class="stc-bi-titre4">John Doe</h4>
+                <span class="stc-span">Co - Founder</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Etapte 1 : section.section-skill>.section-skill-container>.s-skill-container-boxintro>h2.ssc-boxintro-titre2+p.ssc-boxintro-description -->
+
+<section class="section-skills">
+    <div class="section-skills-container">
+        <div class="s-skills-container-boxintro">
+            <h2 class="ssc-boxintro-titre2">Our Skills</h2>
+            <p class="ssc-boxintro-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+        </div>
+        <!-- .s-skills-container-infos>(.ssc-boxskills>(.ssc-bs-container>(.ssc-bs-content-titre>span{photoshop}+span{95%})+.ssc-bs-content-bar>.ssc-bs-c-bar-progess)*3)*2 -->
+        
+        <div class="s-skills-container-infos">
+            <div class="ssc-boxskills">
+                <div class="ssc-bs-container">
+                    <div class="ssc-bs-content-titre"><span class="ssc-bs-txt">photoshop</span><span class="ssc-bs-txt" >95%</span></div>
+                    <div class="ssc-bs-content-bar"><div class="ssc-bs-c-bar-progess"></div></div>
+                </div>
+                <div class="ssc-bs-container">
+                    <div class="ssc-bs-content-titre"><span class="ssc-bs-txt">illustrator</span><span class="ssc-bs-txt" >95%</span></div>
+                    <div class="ssc-bs-content-bar"><div class="ssc-bs-c-bar-progess"></div></div>
+                </div>
+                <div class="ssc-bs-container">
+                    <div class="ssc-bs-content-titre"><span class="ssc-bs-txt">branding</span><span class="ssc-bs-txt" >95%</span></div>
+                    <div class="ssc-bs-content-bar"><div class="ssc-bs-c-bar-progess"></div></div>
+                </div>
+            </div>
+            <div class="ssc-boxskills">
+                <div class="ssc-bs-container">
+                    <div class="ssc-bs-content-titre"><span class="ssc-bs-txt">web development</span><span class="ssc-bs-txt" >95%</span></div>
+                    <div class="ssc-bs-content-bar"><div class="ssc-bs-c-bar-progess"></div></div>
+                </div>
+                <div class="ssc-bs-container">
+                    <div class="ssc-bs-content-titre"><span class="ssc-bs-txt">wordpress</span><span class="ssc-bs-txt" >95%</span></div>
+                    <div class="ssc-bs-content-bar"><div class="ssc-bs-c-bar-progess"></div></div>
+                </div>
+                <div class="ssc-bs-container">
+                    <div class="ssc-bs-content-titre"><span class="ssc-bs-txt">photography</span><span class="ssc-bs-txt" >95%</span></div>
+                    <div class="ssc-bs-content-bar"><div class="ssc-bs-c-bar-progess"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section.section-count>.section-count-container>(.scc-content>.ssc-content-icone+.scc-content-stat>.ssc-cs-number+.ssc-cs-titre)*4 -->
+
+<section class="section-count">
+    <div class="section-count-container">
+        <div class="scc-content">
+            <div class="ssc-content-icone"><span class="ssc-ci-size" ><i class="fa fa-smile-o"></i></span></div>
+            <div class="scc-content-stat">
+                <div class="ssc-cs-number"><h3 class="ssc-csn-titre3">25,646</h3></div>
+                <div class="ssc-cs-titre"><span class="ssc-csn-txt-titre">Happy Customers</span></div>
+            </div>
+        </div>
+        <div class="scc-content">
+            <div class="ssc-content-icone"><span class="ssc-ci-size" ><i class="fa fa-clock-o"></i></span></div>
+            <div class="scc-content-stat">
+                <div class="ssc-cs-number"><h3 class="ssc-csn-titre3">95,672</h3></div>
+                <div class="ssc-cs-titre"><span class="ssc-csn-txt-titre">Hours in Work</span></div>
+            </div>
+        </div>
+        <div class="scc-content">
+            <div class="ssc-content-icone"><span class="ssc-ci-size" ><i class="fa fa-desktop"></i></span></div>
+            <div class="scc-content-stat">
+                <div class="ssc-cs-number"><h3 class="ssc-csn-titre3">64,862</h3></div>
+                <div class="ssc-cs-titre"><span class="ssc-csn-txt-titre">Web pages</span></div>
+            </div>
+        </div>
+        <div class="scc-content">
+            <div class="ssc-content-icone"><span class="ssc-ci-size" ><i class="fa fa-folder-open-o"></i></span></div>
+            <div class="scc-content-stat">
+                <div class="ssc-cs-number"><h3 class="ssc-csn-titre3">8,794</h3></div>
+                <div class="ssc-cs-titre"><span class="ssc-csn-txt-titre">Projects</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section.section-team>.section-team-container>(.s-team-container-boxintro>h2.stc-boxintro-titre2{Our Team}+p.stc-boxintro-description{Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.})+.s-team-container-citation> -->
+
+<section class="section-team2">
+    <div class="section-team-container">
+        <div class="s-team-container-boxintro">
+            <h2 class="stc-boxintro-titre2">Our Team</h2>
+            <p class="stc-boxintro-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+        </div>
+        <div class="s-team-container-citation">
+            <!-- (.stc-citation>span.stc-c-container-icone+.stc-c-container-description{Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever the  when an printing typesetting industryunknown.}+.stc-c-container-p>.stc-ccp-img+.stc-ccp-info-p>h4.stc-ccp-name{john doe}+span.stc-ccp-info-compagny{Company name})*3 -->
+            
+            <div class="stc-citation">
+                <span class="stc-c-container-icone"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                <p class="stc-c-container-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever the  when an printing typesetting industryunknown.</p>
+                <div class="stc-c-container-p">
+                    <div class="stc-ccp-img"><img src="images/team/avatar1.png"  class="img-stc-ccp" alt="avatar citation"></div>
+                    <div class="stc-ccp-info-p">
+                        <h4 class="stc-ccp-name">john doe</h4>
+                        <span class="stc-ccp-info-compagny">Company name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="stc-citation">
+                <span class="stc-c-container-icone"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                <p class="stc-c-container-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever the  when an printing typesetting industryunknown.</p>
+                <div class="stc-c-container-p">
+                    <div class="stc-ccp-img"><img src="images/team/avatar2.png" class="img-stc-ccp" alt="avatar citation"></div>
+                    <div class="stc-ccp-info-p">
+                        <h4 class="stc-ccp-name">john doe</h4>
+                        <span class="stc-ccp-info-compagny">Company name</span>
+                    </div>
+                </div>
+            </div>
+            <div class="stc-citation">
+                <span class="stc-c-container-icone"><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                <p class="stc-c-container-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever the  when an printing typesetting industryunknown.</p>
+                <div class="stc-c-container-p">
+                    <div class="stc-ccp-img"><img src="images/team/avatar3.png" class="img-stc-ccp" alt="avatar citation"></div>
+                    <div class="stc-ccp-info-p">
+                        <h4 class="stc-ccp-name">john doe</h4>
+                        <span class="stc-ccp-info-compagny">Company name</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-banner2">
+    <div class="header-overlay2">
+        <div class="section-banner-container2">
+            <div class="s-banner-container-boxintro">
+            <h2 class="sbc-boxintro-titre2 t2b">Our Customers</h2>
+            <p class="sbc-boxintro-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.</p>
+            </div>
+            <!-- .s-banner2-container-logo>(.sb2c-logo$>img.img-logo-p)*5 -->
+                 <div class="s-banner2-container-logo">
+                     <div class="sb2c-logo1">
+                         <img src="images/partenaires/puma.png" alt="" class="img-logo-p">
+                     </div>
+                     <div class="sb2c-logo1">
+                         <img src="images/partenaires/air_wick.png" alt="" class="img-logo-p">
+                     </div>
+                     <div class="sb2c-logo1">
+                         <img src="images/partenaires/red_bul.png" alt="" class="img-logo-p">
+                     </div>
+                     <div class="sb2c-logo1">
+                         <img src="images/partenaires/veet.png" alt="" class="img-logo-p">
+                     </div>
+                     <div class="sb2c-logo1">
+                         <img src="images/partenaires/audi.png" alt="" class="img-logo-p">
+                     </div>
+                 </div>
+        </div>
+    </div>
+    </section>
+    
+<!-- Etape 1 : section.section-social-network>.section-social-network-container>(.s-social-network-c-infos)*3 -->
+  <section class="section-social-network">
+      <div class="section-social-network-container">
+          <div class="s-social-network-c-infos">
+              <h3 class="s-snc-infos">About <span class="s-snc-i-blue">MyLab</span></h3>
+              <p class="s-snc-description">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and it to make a type specimen book.Lorem Ipsum is simply dummy of the printing and typeset ting 's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+a type specimen book.</p>
+              <ul class="ssnci-link-list">
+                  <li class="ssnci-links"><a href="#" class="ssnci-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="ssnci-links"><a href="#" class="ssnci-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="ssnci-links"><a href="#" class="ssnci-link"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                  <li class="ssnci-links"><a href="#" class="ssnci-link"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                  <li class="ssnci-links"><a href="#" class="ssnci-link"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                  <li class="ssnci-links"><a href="#" class="ssnci-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              </ul>
+              
+              <!-- h3.s-snc-infos{About MyLab}+p.s-snc-description{Lorem}+ul.ssnci-link-list>(li.ssnci-links>a.ssnci-link[#]>)*6 -->                         
+          </div>
+          <div class="s-social-network-c-infos">
+              <h3 class="s-snc-infos">Latest tweet</h3>
+              <!-- .s-snci-container-lt*3>p.s-snci-clt-descriptif{Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown.} -->
+              
+              <div class="s-snci-container-lt">
+                  <p class="s-snci-clt-descriptif"><a href="#" class="tweet-user"><i class="fa fa-twitter" aria-hidden="true"></i> @myLab</a> Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown. <span class="tu-post-time">5 minutes ago</span></p>
+              </div>
+              <div class="s-snci-container-lt">
+                  <p class="s-snci-clt-descriptif"><a href="#" class="tweet-user"><i class="fa fa-twitter" aria-hidden="true"></i> @myLab</a> Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since  when an unknown. <span class="tu-post-time">5 minutes ago</span></p>
+              </div>
+              <div class="s-snci-container-lt">
+                  <p class="s-snci-clt-descriptif"><a href="#" class="tweet-user"><i class="fa fa-twitter" aria-hidden="true"></i> @myLab</a> dummy of the printing and typesetting 's standard dummy text ever since the 1500s, when an unknown. <span class="tu-post-time">5 minutes ago</span></p>
+              </div>
+              
+          </div>
+          <div class="s-social-network-c-infos">
+              <h3 class="s-snc-infos">Latest Blog</h3>
+              
+              <!-- (.s-snci-lb-container>(.ssnci-lbc-img>img)+.ssncci-lbc-description>p.ssnci-lbc-descriptif{Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the.})*3 -->
+              
+              <div class="s-snci-lb-container">
+                  <div class="ssnci-lbc-img"><img src="images/blog/mini_news1.png" class="img-lb" alt="image 1"></div>
+                  <div class="ssncci-lbc-description">
+                      <p class="ssnci-lbc-descriptif">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the.</p>
+                  </div>
+              </div>
+              <div class="s-snci-lb-container">
+                  <div class="ssnci-lbc-img"><img src="images/blog/mini_news2.png" class="img-lb" alt="image 2"></div>
+                  <div class="ssncci-lbc-description">
+                      <p class="ssnci-lbc-descriptif">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the.</p>
+                  </div>
+              </div>
+              <div class="s-snci-lb-container">
+                  <div class="ssnci-lbc-img"><img src="images/blog/mini_news3.png" class="img-lb" alt="image 3"></div>
+                  <div class="ssncci-lbc-description">
+                      <p class="ssnci-lbc-descriptif">Lorem Ipsum is simply dummy of the printing and typesetting 's standard dummy text ever since the.</p>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </section> 
+   
+   <section class="section-banner3">
+       <div class="header-overlay3">
+           <div class="sb3-contact">
+              <div class="sb3-c-container">
+                   <h3 class="sb3-contact-titre3">get in touch</h3>
+                   
+                   <div class="sb3-new-container">
+                       <span class="sb3-cc-icone"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                       <p class="sb3-cc-adress">Address : Ipsum is simply dummy of the printing and typesetting </p>
+                   </div>
+                   
+                   <div class="sb3-new-container">
+                       <span class="sb3-cc-icone"><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                       <p class="sb3-cc-adress">Phone : +8801912614100 </p>
+                   </div>
+                   
+                   <div class="sb3-new-container">
+                       <span class="sb3-cc-icone"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                       <p class="sb3-cc-adress">Email : designdew.shakil@gmail.com </p>
+                   </div>
+                   
+                   
+              </div> 
+           </div>
+       </div>
+   </section>
+   
+   <!-- footer>.footer-container>(.footer-nav-arr>span.fn-arr-txt{All Rights Reserved © myLab})+(.footer-nav-container-links>ul.footer-nav-container-link-list>li.footer-nav-container-link*8>a.footer-nav-link[#]{link$}) -->
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-nav-arr"><span class="fn-arr-txt">All Rights Reserved © myLab</span></div>
+            <div class="footer-nav-container-links">
+                <ul class="footer-nav-container-link-list">
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">home</a></li>
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">portfolio</a></li>
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">blog</a></li>
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">shop</a></li>
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">pages</a></li>
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">features</a></li>
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">shortcodes</a></li>
+                    <li class="footer-nav-container-link"><a href="#" class="footer-nav-link">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

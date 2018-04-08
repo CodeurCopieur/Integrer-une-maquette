@@ -1,0 +1,40 @@
+footer {
+    background-color: #212121;
+    padding: 2em 0em;
+}
+
+.footer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-arr {
+    display: flex;
+    align-items: center;
+}
+
+span.fn-arr-txt {
+    color: #fff;
+}
+
+li.footer-nav-container-link {
+    list-style: none;
+        padding: 0 1em;   
+}
+
+
+ul.footer-nav-container-link-list {
+    display: flex;
+}
+
+a.footer-nav-link {
+    text-transform: uppercase;
+    color: #f0f0f0;
+    transition: all 300ms ease;
+}
+
+a.footer-nav-link:hover{
+    color: #ff9800;
+}

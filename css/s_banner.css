@@ -1,0 +1,35 @@
+.section-banner{
+    background: url(../images/bckd_img2.png) no-repeat center top;
+    background-position: 100% 40%;
+    background-size: cover;
+    height: 400px;
+}
+
+.section-banner-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1130px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p.sbc-description {
+    padding: 0em 6em;
+    color: #fff;
+    line-height: 2;
+    font-family: 'Hind', sans-serif;
+    font-size: 1rem;
+}
+
+a.sbc-link {
+    margin: 0 auto;
+    display: block;
+    background-color: #03a9f4;
+    white-space: nowrap;
+    padding: .75em;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+}

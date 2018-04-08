@@ -1,0 +1,73 @@
+.section-skills {
+    padding: 2em 0em;
+}
+
+.section-skills-container {
+    margin: 3em 0em;
+}
+
+.s-skills-container-boxintro {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.ssc-boxintro-titre2 {
+    text-transform: uppercase;
+    font-size: xx-large;
+    letter-spacing: 1.5px;
+}
+
+.ssc-boxintro-description {
+    font-size: 0.85rem;
+    padding: 0em 6em;
+    color: #abb0b2;
+    line-height: 2;
+    font-family: 'Hind', sans-serif;
+}
+
+.s-skills-container-infos {
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ssc-boxskills {
+    width: calc(100%/2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ssc-bs-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0em;
+}
+
+.ssc-bs-content-titre {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.ssc-bs-content-bar {
+    width: 100%;
+    height: 22px;
+    background-color: #b3e5fc;
+}
+
+span.ssc-bs-txt {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.ssc-bs-c-bar-progess {
+    background-color: #03a9f4;
+    width: 95%;
+    height: 100%;
+}
+

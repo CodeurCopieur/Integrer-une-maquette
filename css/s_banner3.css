@@ -1,0 +1,51 @@
+.section-banner3{
+    background: url(../images/bckd_img4.png) no-repeat center top;
+    background-position: 100% 20%;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+
+.header-overlay3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 17, 17, 0);
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.sb3-contact {
+    position: absolute;
+    width: 360px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sb3-c-container {
+    background-color: #f2f1f0e6;
+    padding: 2em 3em;
+    width: 100%;
+    height: 60%;
+    margin-left: 20px;
+}
+
+h3.sb3-contact-titre3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+span.sb3-cc-icone {
+
+    padding-right: 1em;
+} 
+
+.sb3-new-container {
+    display: flex;
+    margin: 2em 0em;
+}
+
+p.sb3-cc-adress {
+    margin: 0;
+}
