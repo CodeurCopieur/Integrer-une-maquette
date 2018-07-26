@@ -3,3 +3,6 @@ L'intégration (création du code HTML/CSS pas responsive) d'une maquette Photos
 
 Profil Behance de Shakil Hossain : https://www.behance.net/designdew <br/>
 Link PSD : https://www.behance.net/gallery/29312209/F-R-E-E-Responsive-Template-myLab-Free-PSD
+
+Link Codepen : https://jsfiddle.net/Werk_Code/emv7rkj5/3/
+Link jsfiddle : https://jsfiddle.net/Werk_Code/emv7rkj5/3/
